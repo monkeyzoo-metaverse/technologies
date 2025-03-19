@@ -10,7 +10,6 @@ Auto-burn offer file generator
 
 FusionZoo (combining and serrating re combined NFTs)
 
-
 ## Royalty Splitting puzzle
 
 [Link to source](https://github.com/trgarrett/chialisp/tree/main/royalty_share)
@@ -27,30 +26,61 @@ The second part allows the user to ask the blockchain to activate the puzzle and
 
 Monkey Zoo has this implemented on all of our nfts to manage the royalty distribution onto two different wallets.
 
-This can clearly be seen at wallet address [xch1aze9xrf4thau2lejnn0qt4wgw9ynfkynlxs2faq5rkm9nw3w26uq38509h](https://spacescan.io/address/xch1aze9xrf4thau2lejnn0qt4wgw9ynfkynlxs2faq5rkm9nw3w26uq38509h?tab=Transactions&type=standard&page=1)  
+This can clearly be seen at wallet address [xch1aze9xrf4thau2lejnn0qt4wgw9ynfkynlxs2faq5rkm9nw3w26uq38509h](https://spacescan.io/address/xch1aze9xrf4thau2lejnn0qt4wgw9ynfkynlxs2faq5rkm9nw3w26uq38509h?tab=Transactions&type=standard&page=1) 
 
+These coins can then be spent and the internal puzzles activated which splits the coin to the two separate coins to 2 predetermined address with any remainder value going to the primary address.
 
+### Other use cases
 
 ## Token Gifting System
 
 [Link to source](https://github.com/monkeyzoo-metaverse/token-gifting-system)
 
-Description of the Token Gifting System.
+### Description
 
-## Auto-burn offer file generator
+From the beginning MonkeyZoo always wanted to reward its NFT collectors for hold the MonkeyZoo NFTS with MZ token. This is MonkeysZoos own token ecosystem these tokens can be used to make NFT purchases 
+
+### Implementation
+
+Details on how Monkey Zoo has implemented the Token Gifting System.
+
+### Other use cases
+
+## Inferno Auto-burn offer file generator
 
 [Link to source](https://github.com/monkeyzoo-metaverse/chialisp/tree/main/misc)
 
-Description of the Auto-burn offer file generator.
+### Description
 
-## FusionZoo (combining and serrating re combined NFTs)
+Inferno is an offer file generator that allows and NFT to be traded with another NFT and the original NFT to be Burned so that it is no longer useable. The offer file allows this to be done in a trustless non interactive way. 
+
+### Implementation
+
+MonkeyZoo used this method for their Valentines 2024 NFT sale where Ticket NFTs where sold and auto burn offer files where generated. The Ticket holders could use the offer file to gain a black, red or gold Valentines NFT and their ticket was burnt as part of the exchange.
+
+[This is one of the mentioned trades](https://dexie.space/offers/51unopZU8EjmV328EK1d4UzofzCCmvMo5TA9YMjB6hTB)
+
+[Here you can see the Burned Placeholder ticket](https://www.spacescan.io/nft/nft18zz56wtxvszekp997a5c0v6w4fs7n7y8f8q6zu88cxmwmqqzh6aq3shz2e)
+
+### Other use cases
+
+## NFT Fusion (FusionZoo)
 
 [Link to source](https://github.com/monkeyzoo-metaverse/fusion-clsp)
 
-Description of FusionZoo.
+### Description
+
+NFT Fusion is a sophisticated technology developed by the MonkeyZoo project that allows for a trustless and decentralised way for combining, updating, and upgrading NFTs while maintaining on-chain provenance and the non-fungible nature of the source NFTs. This technology leverages the unique features of the Chia blockchain and introduces a new level of flexibility and functionality to NFTs. Think of NFTs being stored inside other NFTs.. 
+
+Lots more information on NFT Fusion can be found [here](https://monkeyzoo.net/fusion/what-is-nft-fusion/)
+
+### Implementation
+
+SOON(tm)  
+
+### Other use cases
 
 ## Glossary
-
 
 | Term | Definition |
 | --- | --- |
