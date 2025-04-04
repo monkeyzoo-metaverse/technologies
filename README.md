@@ -1,6 +1,6 @@
 # MonkeyZoo Implemented Technologies
 
-This is the documentation on blockchain technologies that MonkeyZoo ltd. have directly Developed or sponsored or have implemented.
+This is the documentation on blockchain technologies that MonkeyZoo Ltd. have directly Developed, sponsored or have implemented.
 
 Royalty Splitting puzzle
 
@@ -8,17 +8,17 @@ Token Gifting System
 
 Auto-burn offer file generator
 
-FusionZoo (combining and serrating re combined NFTs)
+FusionZoo (combining and serrating re-combined NFTs)
 
 ## Royalty Splitting puzzle
 
-[Link to source](https://github.com/trgarrett/chialisp/tree/main/royalty_share)
+[Link to Source](https://github.com/trgarrett/chialisp/tree/main/royalty_share)
 
 ### Description
 
 This a special puzzle originally developed by [trgarret](https://github.com/trgarrett). This puzzle allows a coin to be shared in a predefined percentage between 2 or more XCH addresses.
 
-The custom puzzle allows you to add in 2 or more addresses and their the percentage of the total coin value that you would like to send to these two address. This generates a specific address to send the coin to be split to.
+The custom puzzle allows you to add in 2 or more addresses and their the percentage of the total coin value that you would like to send to these two addresses. This generates a specific address to send the coin to be split.
 
 The second part allows the user to ask the blockchain to activate the puzzle and action the split this creates two or more transactions and sends the predefined percentages to the predefined addresses.
 
@@ -28,35 +28,33 @@ Monkey Zoo has this implemented on all of our nfts to manage the royalty distrib
 
 This can clearly be seen at wallet address [xch1aze9xrf4thau2lejnn0qt4wgw9ynfkynlxs2faq5rkm9nw3w26uq38509h](https://spacescan.io/address/xch1aze9xrf4thau2lejnn0qt4wgw9ynfkynlxs2faq5rkm9nw3w26uq38509h?tab=Transactions&type=standard&page=1) 
 
-These coins can then be spent and the internal puzzles activated which splits the coin to the two separate coins to 2 predetermined address with any remainder value going to the primary address.
+These coins can then be spent and the internal puzzles activated which splits the coin to the two separate coins to 2 predetermined addresses with any remainder value going to the primary address.
 
 ### Other use cases
 
 ## Token Gifting System
 
-[Link to source](https://github.com/monkeyzoo-metaverse/token-gifting-system)
+[Link to Source](https://github.com/monkeyzoo-metaverse/token-gifting-system)
 
 ### Description
 
-From the beginning MonkeyZoo always wanted to reward its NFT collectors for hold the MonkeyZoo NFTS with MZ token. This is MonkeysZoos own token ecosystem these tokens can be used to make NFT purchases 
+From the beginning, MonkeyZoo always wanted to reward its NFT collectors for holding the MonkeyZoo NFTS with MZ token. This is MonkeysZoos own token ecosystem these tokens can be used to make NFT purchases.
 
 ### Implementation
 
 Details on how Monkey Zoo has implemented the Token Gifting System.
 
-### Other use cases
+## Inferno Auto-burn offer file generator.
 
-## Inferno Auto-burn offer file generator
-
-[Link to source](https://github.com/monkeyzoo-metaverse/chialisp/tree/main/misc)
+[Link to Source](https://github.com/monkeyzoo-metaverse/chialisp/tree/main/misc)
 
 ### Description
 
-Inferno is an offer file generator that allows and NFT to be traded with another NFT and the original NFT to be Burned so that it is no longer useable. The offer file allows this to be done in a trustless non interactive way. 
+Inferno is an offer file generator that allows and NFT to be traded with another NFT and the original NFT to be Burned so that it is no longer usable. The offer file allows this to be done in a trustless non-interactive way. 
 
 ### Implementation
 
-MonkeyZoo used this method for their Valentines 2024 NFT sale where Ticket NFTs where sold and auto burn offer files where generated. The Ticket holders could use the offer file to gain a black, red or gold Valentines NFT and their ticket was burnt as part of the exchange.
+MonkeyZoo used this method for their Valentines 2024 NFT sale where Ticket NFTs were sold and auto-burn offer files were generated. The Ticket holders could use the offer file to gain a black, red or gold Valentines NFT and their ticket was burnt as part of the exchange.
 
 [This is one of the mentioned trades](https://dexie.space/offers/51unopZU8EjmV328EK1d4UzofzCCmvMo5TA9YMjB6hTB)
 
@@ -64,21 +62,25 @@ MonkeyZoo used this method for their Valentines 2024 NFT sale where Ticket NFTs 
 
 ### Other use cases
 
+Lottery system and ticketing are some of the use cases for this technology.
+
 ## NFT Fusion (FusionZoo)
 
-[Link to source](https://github.com/monkeyzoo-metaverse/fusion-clsp)
+[Link to Source](https://github.com/monkeyzoo-metaverse/fusion-clsp)
 
 ### Description
 
-NFT Fusion is a sophisticated technology developed by the MonkeyZoo project that allows for a trustless and decentralised way for combining, updating, and upgrading NFTs while maintaining on-chain provenance and the non-fungible nature of the source NFTs. This technology leverages the unique features of the Chia blockchain and introduces a new level of flexibility and functionality to NFTs. Think of NFTs being stored inside other NFTs.. 
+NFT Fusion is a sophisticated technology developed by the MonkeyZoo project that allows for a trustless and decentralized way of combining, updating, and upgrading NFTs while maintaining on-chain provenance and the non-fungible nature of the source NFTs. This technology leverages the unique features of the Chia blockchain and introduces a new level of flexibility and functionality to NFTs. Think of NFTs being stored inside other NFTs.
 
-Lots more information on NFT Fusion can be found [here](https://monkeyzoo.net/fusion/what-is-nft-fusion/)
+Lots more information on NFT Fusion can be found [here.](https://monkeyzoo.net/fusion/what-is-nft-fusion/)
 
 ### Implementation
 
 SOON(tm)  
 
 ### Other use cases
+
+Upgradeable game assets are a good alternative use case for this technology.
 
 ## Glossary
 
